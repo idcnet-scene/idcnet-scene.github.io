@@ -6,7 +6,7 @@
         content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
   <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nerfies: Deformable Neural Radiance Fields</title>
+  <title>IDCNet</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -32,7 +32,8 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
+  <link rel="icon" href="https://img.icons8.com/poly/90/potted-plant.png">
+  <!-- <img width="90" height="90" src="https://img.icons8.com/poly/90/potted-plant.png" alt="potted-plant"/> -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -42,7 +43,7 @@
 </head>
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
       <span aria-hidden="true"></span>
@@ -80,7 +81,7 @@
     </div>
 
   </div>
-</nav>
+</nav> -->
 
 
 <section class="hero">
@@ -88,39 +89,49 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
+          <h3 class="title is-1 publication-title">IDCNet: Guided Video Diffusion for Metric-Consistent RGBD Scene Generation
+            with Precise Camera Control</h3>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://keunhong.com">Keunhong Park</a><sup>1</sup>,</span>
+              <a href="">Lijuan Liu</a>,</span>
+              <!-- <a href="">Anonymous</a> -->
+              <!-- <span class="author-block"> -->
+              <!-- <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span> -->
             <span class="author-block">
-              <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span>
-            <span class="author-block">
-              <a href="https://jonbarron.info">Jonathan T. Barron</a><sup>2</sup>,
+              <a href="">Wenfa Li</a>,
+            </span>
+            <span class="author-block"> 
+              <a href="">Dongbo Zhang</a>,
             </span>
             <span class="author-block">
-              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
+              <a href="">Shuo Wang</a>,
             </span>
             <span class="author-block">
-              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
+              <a href="">Shaohui Jiao</a><sup>&dagger;</sup>
             </span>
-            <span class="author-block">
-              <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
-            </span>
+            <!-- <span class="author-block"> -->
+              <!-- <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup> -->
+            <!-- </span> -->
           </div>
 
-          <div class="is-size-5 publication-authors">
+          <br>
+            <div class="is-size-5 publication-authors">
+              <!-- <span class="author-block"><b style="color:#008AD7; font-weight:normal">&#x25B6 </b> Sea AI Lab</span> -->
+              <span class="author-block">Bytedance Inc.</span>
+              <span class="author-block" STYLE="font-size:12.0pt">&nbsp&nbsp<sup>&dagger;</sup>Corresponding Author</span>
+              <br>
+            </div>
+
+          <!-- <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>1</sup>University of Washington,</span>
             <span class="author-block"><sup>2</sup>Google Research</span>
-          </div>
+          </div> -->
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -129,7 +140,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -137,7 +148,7 @@
                   <span>arXiv</span>
                 </a>
               </span>
-              <!-- Video Link. -->
+              <!-- Video Link.
               <span class="link-block">
                 <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
                    class="external-link button is-normal is-rounded is-dark">
@@ -148,7 +159,7 @@
                 </a>
               </span>
               <!-- Code Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://github.com/google/nerfies"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -156,16 +167,16 @@
                   </span>
                   <span>Code</span>
                   </a>
-              </span>
+              </span> -->
               <!-- Dataset Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://github.com/google/nerfies/releases/tag/0.1"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="far fa-images"></i>
                   </span>
                   <span>Data</span>
-                  </a>
+                  </a> --> 
             </div>
 
           </div>
@@ -178,71 +189,15 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
-      </h2>
-    </div>
-  </div>
-</section>
-
-
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
-                    type="video/mp4">
-          </video>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-six-fifths"> 
+        <!-- <div class="column is-full"> -->
+          <img id="teaser" width="125%" style="max-width: 125%;display: block; margin: 0 auto; transform: translateX(-10%);" src="./static/scene_poster_1.png">
+          <p>
+            We present IDC-Net, a novel framework that, given metric-aligned RGB-D inputs and camera trajectories, generates
+RGB-D sequences with precise camera control. Thanks to the metric alignment between generated depths and camera poses,
+the outputs enable direct 3D reconstruction without post-processing.
+          </p>
         </div>
       </div>
     </div>
@@ -250,168 +205,136 @@
 </section>
 
 
-<section class="section">
+
+
+
+<section class="section" style="background-color:#efeff081">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
-          </p>
-          <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
-          </p>
+          We present IDC-Net (Image-Depth Consistency Network),
+a novel framework designed to generate RGB-D video sequences
+under explicit camera trajectory control. Unlike approaches
+that treat RGB and depth generation separately,
+IDC-Net jointly synthesizes both RGB images and corresponding
+depth maps within a unified geometry-aware diffusion
+model. The joint learning framework strengthens spatial
+and geometric alignment across frames, enabling more
+precise camera control in the generated sequences. To support
+the training of this camera-conditioned model and ensure
+high geometric fidelity, we construct a camera-imagedepth
+consistent dataset with metric-aligned RGB videos,
+depth maps, and accurate camera poses, which provides
+precise geometric supervision with notably improved interframe
+geometric consistency. Moreover, we introduce a
+geometry-aware transformer block that enables fine-grained
+camera control, enhancing control over the generated sequences.
+Extensive experiments show that IDC-Net achieves
+improvements over state-of-the-art approaches in both visual
+quality and geometric consistency of generated scene
+sequences. Notably, the generated RGB-D sequences can be
+directly feed for downstream 3D Scene reconstruction tasks
+without extra post-processing steps, showcasing the practical
+benefits of our joint learning framework.
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
 
     <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
+    <!-- <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
+        <h3 class="title is-3">Video Results with Given Trajectory</h3>
+        <div class="publication-video" style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+          <!-- <video id="dollyzoom" autoplay controls muted loop playsinline width="150%">
+            <source src="../more_videos/group_0_new.mp4"
+                    type="video/mp4">
+          </video> -->
+
+          <!-- <video id="dollyzoom" autoplay controls muted loop playsinline width="150%">
+            <source src="../cam_cntrl_videos/cameras_002_new.mp4"
+                    type="video/mp4">
+          </video> -->
+
+          <!-- <video id="dollyzoom" autoplay controls muted loop playsinline width="150%">
+            <source src="../cam_cntrl_videos/cameras1_0q.mp4"
+                    type="video/mp4">
+          </video> -->
+        <!-- </div>
       </div>
-    </div>
+    </div> --> 
     <!--/ Paper video. -->
   </div>
 </section>
 
 
+
 <section class="section">
   <div class="container is-max-desktop">
 
-    <div class="columns is-centered">
+    <!-- <div class="columns is-centered"> -->
 
       <!-- Visual Effects. -->
-      <div class="column">
+      <div class="column is-full-width">
         <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
+          <h2 class="title is-3">Video Results with Given Trajectory</h2>
           <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
+            IDCNet generates RGB-D scenes from input RGB-D data and given trajectories. Each row shows videos generated from different prompts under a shared trajectory.
           </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
+          <video id="dollyzoom" autoplay controls muted loop playsinline style="width: 125%; max-width: 125%;display: block; margin: 0 auto; transform: translateX(-10%);">
+            <source src="./cam_cntrl_videos/cameras_002_new.mp4"
                     type="video/mp4">
           </video>
+          <video id="dollyzoom" autoplay controls muted loop playsinline style="width: 125%; max-width: 125%;display: block; margin: 0 auto; transform: translateX(-10%);">
+            <source src="./cam_cntrl_videos/cameras1_014_new.mp4"
+                    type="video/mp4">
+          </video>
+          <video id="dollyzoom" autoplay controls muted loop playsinline style="width: 125%; max-width: 125%;display: block; margin: 0 auto; transform: translateX(-10%);">
+            <source src="./cam_cntrl_videos/cameras1_033_new.mp4"
+                    type="video/mp4">
+          </video>
+          
         </div>
       </div>
       <!--/ Visual Effects. -->
 
       <!-- Matting. -->
       <div class="column">
-        <h2 class="title is-3">Matting</h2>
+        <h2 class="title is-3">More Video Results</h2>
         <div class="columns is-centered">
           <div class="column content">
             <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
+              Additional RGB-D results generated by IDCNet from varying input prompts and trajectories.
             </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
+            <video id="dollyzoom" autoplay controls muted loop playsinline style="width: 125%; max-width: 125%;display: block; margin: 0 auto; transform: translateX(-10%);">
+              <source src="./more_videos/group_0_new.mp4"
+                      type="video/mp4">
+            </video>
+            <video id="dollyzoom" autoplay controls muted loop playsinline style="width: 125%; max-width: 125%;display: block; margin: 0 auto; transform: translateX(-10%);">
+              <source src="./more_videos/group_3_new.mp4"
+                      type="video/mp4">
+            </video>
+            <video id="dollyzoom" autoplay controls muted loop playsinline style="width: 125%; max-width: 125%;display: block; margin: 0 auto; transform: translateX(-10%);">
+              <source src="./more_videos/group_1_new.mp4"
+                      type="video/mp4">
+            </video>
+            <video id="dollyzoom" autoplay controls muted loop playsinline style="width: 125%; max-width: 125%;display: block; margin: 0 auto; transform: translateX(-10%);">
+              <source src="./more_videos/group_2_new.mp4"
                       type="video/mp4">
             </video>
           </div>
 
         </div>
-      </div>
+      <!-- </div> -->
     </div>
     <!--/ Matting. -->
 
-    <!-- Animation. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
-
-        <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
-        <div class="content has-text-justified">
-          <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
-          </p>
-        </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
-            </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
-          </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
-          </div>
-        </div>
-        <br/>
-        <!--/ Interpolating. -->
-
-        <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
-        <div class="content has-text-justified">
-          <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <!--/ Re-rendering. -->
-
-      </div>
-    </div>
-    <!--/ Animation. -->
-
 
     <!-- Concurrent Work. -->
-    <div class="columns is-centered">
+    <!-- <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Related Links</h2>
 
@@ -434,27 +357,137 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Concurrent Work. -->
 
   </div>
 </section>
 
+<!-- <section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="../more_videos/group_3.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+            <source src="../more_videos/group_2.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-shiba">
+          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+            <source src="../more_videos/group_1.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-fullbody">
+          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+            <source src="../more_videos/group_0.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <!-- <div class="item item-blueshirt">
+          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/blueshirt.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-mask">
+          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/mask.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-coffee">
+          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/coffee.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-toby">
+          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/toby2.mp4"
+                    type="video/mp4">
+          </video>
+        </div> -->
+      <!-- </div>
+    </div>
+  </div>
+</section> --> -->
 
-<section class="section" id="BibTeX">
+<section class="section">
+    <!-- Results. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-six-fifths">
+        <h2 class="title is-3"> The Method </h2>
+      </div>
+    </div>
+    <!-- </div> -->
+    <!--/ Results. -->
+    <div class="container is-max-desktop">
+
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <div class="content has-text-justified">
+            <p>
+              <!-- BuboGPT connects different modality Q-Former with pre-trained large language model <a href="https://github.com/lm-sys/FastChat">Vicuna</a>, using a simple projection matrix.   We consider a two-stage instruction-tuning procedure:
+          <ul type="1">
+            <li><b>Stage 1:  Single-modal Pre-training</b>. <span style="font-size: 95%;">We train the corresponding modality Q-Former and linear projection layer on a large number of modality-text paired
+data.</span></li>
+            <li><b>Stage 2:  Multi-Modal Instruct Tuning</b>. <span style="font-size: 95%;">We curate a high-quality multi-modal instruction-following
+dataset to fine tune only the linear projection layer:
+              <ul type="1">
+                <li> <b>Image-Text</b>: We employ two previously published datasets from <a href="https://minigpt-4.github.io/">MiniGPT-4</a> and <a href="https://llava-vl.github.io/">LLaVa</a> for visual instruct tuning.</li>
+                <li> <b>Audio-Text</b>: We build a series of expressive and descriptive data to facilitate this process based on <a href="https://arxiv.org/abs/1910.09387">Clotho</a> dataset.</span></li>
+                <li> <b>Audio-Image-Text</b>: We build &lt;audio, image, text&gt; pairs to act as triple-modality instruction tuning dataset based on <a href="https://arxiv.org/abs/2104.02691">VGGSS</a> dataset
+                  and further introduce negative set to enhance our model.</span></li>
+              </ul>  
+          </ul>  -->
+              <!--          Please check out ``LLaVA-13b-delta-v0'' model checkpoint on -->
+              <!--          <a href="https://huggingface.co/liuhaotian/LLaVA-13b-delta-v0">[HuggingFace Models]</a>.-->
+              As the figure shown, IDC-Net jointly generates RGB and depth sequences in latent space, conditioned
+on an input frame and target camera trajectory. Camera poses are embedded through a GeoAware transformer to enforce
+spatial consistency. The generated metrically aligned RGB-D outputs enable direct point cloud extraction, supporting immediate
+downstream 3D reconstruction
+            </p>
+          </div>
+          <centering>
+            <div style="text-align: center;">
+              <img id="teaser" width="80%" src="./static/framework.png">
+              <figcaption>
+                The framework of IDC-Net.
+              </figcaption>
+            </div>
+
+            <!--      -->
+            <!--      </centering>           -->
+        </div>
+      </div>
+
+
+  </section>
+
+
+<!-- <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+    <pre><code>@article{
+      <!-- park2021nerfies, -->
+  <!-- author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo}, -->
+  <!-- title     = {Nerfies: Deformable Neural Radiance Fields}, -->
+  <!-- journal   = {ICCV}, -->
+  <!-- year      = {2021}, -->
 }</code></pre>
   </div>
-</section>
+</section> -->
 
 
-<footer class="footer">
+<!-- <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
       <a class="icon-link"
@@ -484,7 +517,7 @@
       </div>
     </div>
   </div>
-</footer>
+</footer> -->
 
 </body>
 </html>
