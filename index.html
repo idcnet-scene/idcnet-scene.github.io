@@ -94,7 +94,7 @@
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="">Lijuan Liu</a>,</span>
-              <!-- <a href="">Anonymous</a> -->
+              <!-- <a href="https://scholar.google.com/citations?user=nANxp5wAAAAJ&hl=zh-CN">Anonymous</a> -->
               <!-- <span class="author-block"> -->
               <!-- <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span> -->
             <span class="author-block">
@@ -131,7 +131,7 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href=""
+                <a href="https://arxiv.org/abs/2508.04147"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -140,7 +140,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href=""
+                <a href="https://arxiv.org/abs/2508.04147"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -328,97 +328,12 @@ benefits of our joint learning framework.
           </div>
 
         </div>
-      <!-- </div> -->
     </div>
-    <!--/ Matting. -->
-
-
-    <!-- Concurrent Work. -->
-    <!-- <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
-          </p>
-          <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
-          </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
-        </div>
-      </div>
-    </div> -->
-    <!--/ Concurrent Work. -->
 
   </div>
 </section>
 
-<!-- <section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="../more_videos/group_3.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="../more_videos/group_2.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="../more_videos/group_1.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="../more_videos/group_0.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <!-- <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
-                    type="video/mp4">
-          </video>
-        </div> -->
-      <!-- </div>
-    </div>
-  </div>
-</section> --> -->
+
 
 <section class="section">
     <!-- Results. -->
@@ -435,21 +350,6 @@ benefits of our joint learning framework.
         <div class="column is-full-width">
           <div class="content has-text-justified">
             <p>
-              <!-- BuboGPT connects different modality Q-Former with pre-trained large language model <a href="https://github.com/lm-sys/FastChat">Vicuna</a>, using a simple projection matrix.   We consider a two-stage instruction-tuning procedure:
-          <ul type="1">
-            <li><b>Stage 1:  Single-modal Pre-training</b>. <span style="font-size: 95%;">We train the corresponding modality Q-Former and linear projection layer on a large number of modality-text paired
-data.</span></li>
-            <li><b>Stage 2:  Multi-Modal Instruct Tuning</b>. <span style="font-size: 95%;">We curate a high-quality multi-modal instruction-following
-dataset to fine tune only the linear projection layer:
-              <ul type="1">
-                <li> <b>Image-Text</b>: We employ two previously published datasets from <a href="https://minigpt-4.github.io/">MiniGPT-4</a> and <a href="https://llava-vl.github.io/">LLaVa</a> for visual instruct tuning.</li>
-                <li> <b>Audio-Text</b>: We build a series of expressive and descriptive data to facilitate this process based on <a href="https://arxiv.org/abs/1910.09387">Clotho</a> dataset.</span></li>
-                <li> <b>Audio-Image-Text</b>: We build &lt;audio, image, text&gt; pairs to act as triple-modality instruction tuning dataset based on <a href="https://arxiv.org/abs/2104.02691">VGGSS</a> dataset
-                  and further introduce negative set to enhance our model.</span></li>
-              </ul>  
-          </ul>  -->
-              <!--          Please check out ``LLaVA-13b-delta-v0'' model checkpoint on -->
-              <!--          <a href="https://huggingface.co/liuhaotian/LLaVA-13b-delta-v0">[HuggingFace Models]</a>.-->
               As the figure shown, IDC-Net jointly generates RGB and depth sequences in latent space, conditioned
 on an input frame and target camera trajectory. Camera poses are embedded through a GeoAware transformer to enforce
 spatial consistency. The generated metrically aligned RGB-D outputs enable direct point cloud extraction, supporting immediate
@@ -463,9 +363,6 @@ downstream 3D reconstruction
                 The framework of IDC-Net.
               </figcaption>
             </div>
-
-            <!--      -->
-            <!--      </centering>           -->
         </div>
       </div>
 
@@ -473,55 +370,27 @@ downstream 3D reconstruction
   </section>
 
 
-<!-- <section class="section" id="BibTeX">
+<section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@article{
-      <!-- park2021nerfies, -->
-  <!-- author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo}, -->
-  <!-- title     = {Nerfies: Deformable Neural Radiance Fields}, -->
-  <!-- journal   = {ICCV}, -->
-  <!-- year      = {2021}, -->
-<!-- }</code></pre>
+      liu2025idcnetguidedvideodiffusion,
+      author    = {Lijuan Liu and Wenfa Li and Dongbo Zhang and Shuo Wang and Shaohui Jiao},
+      title     = {IDCNet: Guided Video Diffusion for Metric-Consistent RGBD Scene Generation with Precise Camera Control},
+      eprint    = {2508.04147},
+      year      = {2025},
+      archivePrefix={arXiv},
+      url       = {https://arxiv.org/abs/2508.04147}, 
+ }</code></pre>
   </div>
-</section> --> 
+</section> 
 
 <footer style="text-align: center; padding: 20px; margin-top: 40px; color: #888; font-size: 0.9em;">
   <p>This website template is borrowed from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.</p>
 </footer>
 
 
-<!-- <footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered">
-      <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
-        <i class="fas fa-file-pdf"></i>
-      </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <p>
-            This website is licensed under a <a rel="license"
-                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-          <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer> -->
+
 
 </body>
 </html>
